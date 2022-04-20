@@ -1,0 +1,45 @@
+body {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+   }
+#main-doc {
+    position: absolute;
+    height:auto;
+    width:90%;
+    margin-left: 294px;
+    padding: 20px;
+    background-color:#7882A4 ;
+}
+#navbar {
+    position:fixed;
+    height: 100%;
+    width: 300px;
+    top:0;
+    left:0;
+    overflow: auto;
+    background-color:#C0A080 ;
+    border: 1px solid black ;
+    }
+.nav-link {
+    border: 1px solid black ;
+    padding: 5px, 5px;
+}
+@media (max-width: 500px) {
+    main {
+        background-color:#ED5EDD ;
+        color:#8BDB81
+    }
+}
+@media (max-width: 500px) {
+    #navbar {
+        background-color:#19282F ;
+        color:#8BDB81;
+    }
+}
+
